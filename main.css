@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+    background-image:url("IMAGES/BACKGROUND.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content:center;
+    align-items:center;
+}
+.navbar{
+    position: relative;
+    padding-left:70px;
+}
+input{
+    border:none;
+    outline:none;
+}
+.cont{
+    position:relative;
+    overflow: hidden;
+    padding-left:115px;
+    padding-bottom:60px;
+}
+.form{
+    overflow:hidden;
+    position:relative;
+    border-radius:25px;
+    padding:50px;
+    position:relative;
+    width:500px;
+    height:550px;
+    background-color:rgba(11, 78, 11, 0.5);
+    -webkit-transition:-webkit-transform 1.2s ease-in-out;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+@font-face {
+    font-family:myFirstFont;
+    src: url("FONTS/Quicksand-VariableFont_wght.ttf");
+}
+h1{
+    font-family: myFirstFont;
+    width:100%;
+    font-size:35px;
+    text-align:center;
+    color:white;
+}
+input,.btn{
+    margin-top:5px;
+    font-size:20px;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    background-color:rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius:5px;
+    cursor:pointer;
+    line-height: 20px;
+    text-decoration: none; 
+}
+
+.text,.password{
+    border:none;
+    margin-top:40px;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color:white;
+    font-family: myFirstFont;
+}
+button{
+    display:block;
+    margin:0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color:darkolivegreen;
+    font-size: 20px;
+    cursor: pointer;
+}
+.submit{
+    border:none;
+    margin-top:20px;
+    margin-bottom:15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: myFirstFont;
+    background: -webkit-linear-gradient(left, rgba(252, 255, 51, 0.603),rgba(87, 255, 45, 0.479))
+}
+.forgot-pass,.sign-up{
+    font-family: myFirstFont;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    color:white;
+    font-size:15px;
+}
+.or-seperator {
+    text-align: center;
+    font-family: myFirstFont;
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+.social-media ul{
+    list-style:none;
+}
+.social-media ul li{
+    display:inline-block;
+    cursor:pointer;
+    margin:20px 20px;
+}
+.social-media img{
+    width: 40px;
+    height: 40px;
+}
